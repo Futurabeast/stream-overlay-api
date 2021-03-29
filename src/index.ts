@@ -1,6 +1,6 @@
 import { SocketIoService } from "./services/socketio";
 import express, { Express } from "express";
-import { config } from 'dotenv'
+import { config } from 'dotenv-flow';
 import { SpotifyService } from "./services/spotify";
 import { StorageService } from "./services/storage";
 import { TwitchBotService } from "./services/twitchbot";
